@@ -1,20 +1,64 @@
 * {
-  width: 90%;
+  box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
 .title {
   background-color: rgb(69, 68, 68);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1200px;
 }
 
 .main-section {
   background-color: rgb(172, 172, 172);
+  max-width: 75%;
+  padding: 15px;
+}
+
+.ipsum {
+  display: flex;
+}
+
+.paragraph {
+  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 2;
 }
 
 .side-bar {
   background-color: grey;
+  max-width: 25%;
+  padding: 15px;
+  flex: 1;
+}
+
+.side-list {
+  list-style: none;
+  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer {
   background-color: rgb(69, 68, 68);
+  padding: 20px;
 }
 
 .footer-text {
