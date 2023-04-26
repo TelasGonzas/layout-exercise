@@ -1,0 +1,22 @@
+* {
+  width: 90%;
+}
+.title {
+  background-color: rgb(69, 68, 68);
+}
+
+.main-section {
+  background-color: rgb(172, 172, 172);
+}
+
+.side-bar {
+  background-color: grey;
+}
+
+.footer {
+  background-color: rgb(69, 68, 68);
+}
+
+.footer-text {
+  text-align: center;
+}
